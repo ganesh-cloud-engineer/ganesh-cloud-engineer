@@ -110,7 +110,7 @@
     <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/YouTube-Motionverse-red?style=for-the-badge&logo=youtube"/>
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube"/>
   </a>
 </p>
 
@@ -121,6 +121,12 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ganesh-cloud-engineer&label=Visitors&color=0e75b6&style=for-the-badge"/>
 </p>
+
+## ☁️ Latest Cloud & DevOps News
+
+<!-- CLOUD_NEWS_START -->
+*Fetching latest cloud news...*  
+<!-- CLOUD_NEWS_END -->
 
 ## ⚡ Signature Line
 
