@@ -43,6 +43,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&color=00FFAA&center=true&vCenter=true&lines=python+automation+running;ci%2Fcd+pipeline+executing;deploy+to+cloud+successfully" width="600"/>
 </p>
 --
+
+
 ## 📊 DevOps Command Center (Live)
 
 <p align="center">
