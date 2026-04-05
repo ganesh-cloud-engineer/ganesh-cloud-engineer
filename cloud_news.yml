@@ -1,0 +1,27 @@
+name: Update Cloud News
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: pip install requests
+      - name: Update Cloud News
+        run: python cloud_news_updater.py
+      - name: Commit & Push
+        run: |
+          git config --global user.name "Ganesh Naik"
+          git config --global user.email "ganesh@email.com"
+          git add README.md
+          git commit -m "Update cloud news"
+          git push
